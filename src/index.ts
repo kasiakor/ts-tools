@@ -3,4 +3,4 @@ function printMessage(msg: string): void {
 }
 
 printMessage("Hello from TypeScript");
-//printMessage(100);
+printMessage("It is very sunny today");
