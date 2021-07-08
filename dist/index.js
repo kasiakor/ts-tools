@@ -1,7 +1,12 @@
-var printMessage = function (msg) { return console.log("Message: " + msg); };
-var message = ("Hello from TypeScript");
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const calc_1 = require("./calc");
+let printMessage = (msg) => console.log(`Message: ${msg}`);
+let message = ("Hello from TypeScript");
 printMessage(message);
-var data = new Map();
+let data = new Map();
 data.set("Bob", "London");
 data.set("Alice", "Paris");
-data.forEach(function (val, key) { return console.log(val + " lives in " + key); });
+data.forEach((val, key) => console.log(`${val} lives in ${key}`));
+let total = calc_1.sum(100, 200, 300);
+console.log(`Total is ${total}`);
