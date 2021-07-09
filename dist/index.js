@@ -8,5 +8,7 @@ let data = new Map();
 data.set("Bob", "London");
 data.set("Alice", "Paris");
 data.forEach((val, key) => console.log(`${val} lives in ${key}`));
+debugger;
 let total = calc_1.sum(100, 200, 300);
 console.log(`Total is ${total}`);
+//# sourceMappingURL=index.js.map
