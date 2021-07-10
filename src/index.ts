@@ -11,6 +11,8 @@ data.set("Alice", "Paris");
 data.forEach((val, key) => console.log(`${val} lives in ${key}`));
 
 
+// tslint:disable-next-line no-debugger
 debugger;
+
 let total = sum(100, 200, 300);
 console.log(`Total is ${total}`);
